@@ -10,7 +10,7 @@ public class Array {
       System.out.println("Printing Even numbers between 1 and " + limit);
       
       for (int i=1; i<limit; i++) {
-	      //if the number is perfectly divisible by 2 
+	      //if the number is perfectly divisible by 2 then this will print the even number
     	  if( i % 2 == 0){
               System.out.print(i + " ");
     		  
